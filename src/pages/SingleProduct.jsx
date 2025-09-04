@@ -5,11 +5,12 @@ import AboutImgRight from "../components/AboutImgRight"
 import AboutSection from "../components/About";
 import womenBike from "../assets/img/bike-women.png"
 import paddle from "../assets/img/paddle.png"
-
+import ProductDetails from "../components/ProductDetail";
 
 export default function SingleProduct() {
     return (
         <>
+        <ProductDetails />
             <ServiceSection
                 backgroundImage={productView}
                 title={`Removable long-range battery`}
