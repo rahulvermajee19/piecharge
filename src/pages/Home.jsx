@@ -14,7 +14,7 @@ import Bike1 from "../assets/img/bike-1.png";
 import Card from '../components/Card';
 import CycleImg from '../assets/img/cycle.png';
 import LogBg from "../assets/img/loc.png"
-import ContainerImg from "../assets/img/container.png"
+import conImg from "../assets/img/con.png"
 import HowItWorks from "../components/HowItWorks";
 import ContactForm from "../components/ContactForm";
 
@@ -58,7 +58,7 @@ export default function Home() {
         description="The lease includes an all-in service package. Throughout the entire 36 months, you are fully insured against damage, theft and maintenance. In addition, you always have access to roadside assistance."
       />
       <Hero
-        backgroundImage={ContainerImg}
+        backgroundImage={conImg}
         subtitle="VELORETTI ELECTRIC"
         title="This is Two."
         subtitle2="Introducing the all-new Ivy and Ace"
